@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: capstone-taskmanager
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/capstone
+    username: capstone
+    password: capstone
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: false
+server:
+  port: 8090
